@@ -1,0 +1,103 @@
+{
+  "description": {
+    "name": "us-promotional-document-type", //нужно значение
+    "description": "This file is a USFDA eCTD v4.0 maintained code list.  It is encoded using OASIS genericode.",
+    "oid": "2.16.840.1.113883.3.989.5.1.2.2.1.6.1", //нужно значение
+    "canonicalUri": "",
+    "version": "1", //нужно значение
+    "agency": {
+      "name": "US Food and Drug Administration",
+      "shortName": "USFDA"
+    }
+  },
+  "default-language-code": "eng", //нужно значение
+  "vocabulary-type": "value", //нужно значение
+  "values": {
+    "2.16.840.1.113883.3.989.5.1.2.2.1.6.1": { //ключ в качестве значения
+      "us_promo_document_type_1": { //ключ в качестве значения
+        "description": {
+          "eng": { //ключ в качестве значения
+            "value": "Promotional 2253", //нужно значение
+            "name": "us-promotional-document-type"
+          }
+        },
+        "definition": {
+          "eng": {
+            "value": "Form and materials required from submitter at first publication of marketing and advertising materials",
+            "name": "us-promotional-document-type"
+          }
+        }
+      },
+      "us_promo_document_type_2": { //ключ в качестве значения
+        "description": {
+          "eng": { //ключ в качестве значения
+            "value": "Request For Advisory Launch", //нужно значение
+            "name": "us-promotional-document-type"
+          }
+        },
+        "definition": {
+          "eng": {
+            "value": "Voluntary submission of launch promotional materials for FDA review and comment sent prior to dissemination/publication",
+            "name": "us-promotional-document-type"
+          }
+        }
+      },
+      "us_promo_document_type_3": {
+        "description": {
+          "eng": {
+            "value": "Request For Advisory Non-Launch",
+            "name": "us-promotional-document-type"
+          }
+        },
+        "definition": {
+          "eng": {
+            "value": "Voluntary submission of promotional materials for FDA review and comment sent prior to dissemination/publication",
+            "name": "us-promotional-document-type"
+          }
+        }
+      },
+      "us_promo_document_type_4": {
+        "description": {
+          "eng": {
+            "value": "Presubmission Accelerated Launch",
+            "name": "us-promotional-document-type"
+          }
+        },
+        "definition": {
+          "eng": {
+            "value": "Promotional materials intended to be used in the first 120 days after approval that are submitted to FDA prior to dissemination/publication as required by 21 CFR 314.550 and 601.45",
+            "name": "us-promotional-document-type"
+          }
+        }
+      },
+      "us_promo_document_type_5": {
+        "description": {
+          "eng": {
+            "value": "Presubmission Accelerated Non-launch",
+            "name": "us-promotional-document-type"
+          }
+        },
+        "definition": {
+          "eng": {
+            "value": "Promotional materials intended to be used after the 120-day post approval period that are submitted to FDA prior to dissemination/publication as required by 21 CFR 314.550 and 601.45",
+            "name": "us-promotional-document-type"
+          }
+        }
+      },
+      "us_promo_document_type_6": {
+        "description": {
+          "eng": {
+            "value": "Pre-Dissemination Review of Television Ads",
+            "name": "us-promotional-document-type"
+          }
+        },
+        "definition": {
+          "eng": {
+            "value": "Television advertisements submitted to FDA under the Pre-Dissemination Review of Television Ads Program",
+            "name": "us-promotional-document-type"
+          }
+        }
+      }
+    }
+  }
+}
